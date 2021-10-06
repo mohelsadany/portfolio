@@ -20,7 +20,7 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Projects | Portfolio Jigar Sable";
+        document.title = "Projects | Elsadany Portfolio";
         $("#favicon").attr("href","/assests/images/favicon.png");
     }
     else {

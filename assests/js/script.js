@@ -41,7 +41,7 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Portfolio | Jigar Sable";
+        document.title = "Portfolio | Elsadany";
         $("#favicon").attr("href","assests/images/favicon.png");
     }
     else {
